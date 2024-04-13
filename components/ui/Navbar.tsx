@@ -23,6 +23,11 @@ export const Navbar = () => {
             </Link>
           </li>
           <li className="mr-5">
+            <Link href="/feed" className="">
+              Votre réseau
+            </Link>
+          </li>
+          <li className="mr-5">
             <Link href="/">A propos</Link>
           </li>
         </ul>

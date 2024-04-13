@@ -1,5 +1,5 @@
 "use client";
-import { Home, Info } from "lucide-react";
+import { Home, Info, Newspaper } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -29,6 +29,10 @@ export const NavbarMobile = () => {
         </svg>
         <span className="btm-nav-label">Warnings</span>
       </Link> */}
+      <Link href={"/feed"} className={`${path === "/about" ? "active" : ""}`}>
+        <Newspaper />
+        <span className="btm-nav-label">Votre réseau</span>
+      </Link>
       <Link href={"/about"} className={`${path === "/about" ? "active" : ""}`}>
         <Info />
         <span className="btm-nav-label">A propos</span>
