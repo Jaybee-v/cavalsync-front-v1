@@ -17,6 +17,8 @@ const config: Config = {
           primary: "#1BA4E4",
           secondary: "#CAA69F",
           accent: "#4AC5FF",
+          neutral: "#8f8f8f",
+          "base-100": "#ececec",
         },
       },
     ], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
