@@ -29,7 +29,7 @@ export const NavbarMobile = () => {
         </svg>
         <span className="btm-nav-label">Warnings</span>
       </Link> */}
-      <Link href={"/feed"} className={`${path === "/about" ? "active" : ""}`}>
+      <Link href={"/feed"} className={`${path === "/feed" ? "active" : ""}`}>
         <Newspaper />
         <span className="btm-nav-label">Votre réseau</span>
       </Link>
